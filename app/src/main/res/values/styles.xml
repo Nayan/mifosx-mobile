@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Black.NoTitleBar">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="LightTextTheme">
+        <item name="android:textColor">#F5EAFA</item>
+        <item name="android:textColorHint">#ffffff</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="btnStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#626954</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <style name="btnStyle_large" parent="@android:style/Widget.Button">
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">@drawable/custom_button_large</item>
+        <item name="android:textColor">#EFF8FB</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+</resources>

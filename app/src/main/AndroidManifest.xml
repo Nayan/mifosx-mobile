@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.mifosx.mobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="org.mifosx.mobile.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="org.mifosx.mobile.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="org.mifosx.mobile.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|stateVisible"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
